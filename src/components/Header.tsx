@@ -1,6 +1,7 @@
 import React from 'react'
 import { Button } from '@heroui/button'
 import { Play } from 'lucide-react';
+import Image from 'next/image';
 
 
 export default function Header() {
@@ -19,7 +20,7 @@ export default function Header() {
                 </Button>
             </div>
         </div>
-        <div><img src="account-image.png" alt="account image" /></div>
+        <div><Image src="account-image.png" alt="account image" /></div>
     </div>
   )
 }
