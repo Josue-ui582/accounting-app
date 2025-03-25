@@ -5,10 +5,10 @@ type Props = {}
 
 export default function ManageFinance({}: Props) {
   return (
-    <section className='flex justify-center items-center flex-col my-10 gap-8 md:px-10 px-2'>
+    <section className='flex justify-center items-center flex-col gap-12 md:px-10 px-2 overflow-hidden mt-24'>
         <h1 className='font-bold text-2xl text-center'>Tout ceux dont vous avez besoin pour gérer vos finances</h1>
         <p className='text-center text-gray-800'>Des fonctionnalités puissantes qui rendent la comptabilité simple et efficace</p>
-        <div className='flex md:flex-row flex-col gap-5'>
+        <div className='flex overflow-hidden md:flex-row flex-col gap-5'>
             <FinaceCard
                 title="Analyse en temps réel"
                 icon="analyse.png"

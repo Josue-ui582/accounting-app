@@ -63,7 +63,7 @@ const NavBar: React.FC = () => {
 
       {isMenuOpen && (
     <div 
-      className={`sm:hidden bg-white w-full shadow-md transition-all duration-300 overflow-hidden absolute top-20 bottom-0 left-0 right-0 ${isMenuOpen ? 'h-[50vh]' : 'h-0'}`}
+      className={`sm:hidden bg-white w-full shadow-md transition-all duration-300 overflow-hidden absolute top-10 rounded-lg bottom-0 left-0 right-0 ${isMenuOpen ? 'h-[20vh]' : 'h-0'}`}
     >
     {menuItems.map((item, index) => (
       <NavbarMenuItem key={index}>
