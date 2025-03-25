@@ -1,9 +1,8 @@
 import React from 'react'
 import FinaceCard from './ui/FinaceCard'
 
-type Props = {}
 
-export default function ManageFinance({}: Props) {
+export default function ManageFinance() {
   return (
     <section className='flex justify-center items-center flex-col gap-12 md:px-10 px-2 overflow-hidden mt-24'>
         <h1 className='font-bold text-2xl text-center'>Tout ceux dont vous avez besoin pour gérer vos finances</h1>

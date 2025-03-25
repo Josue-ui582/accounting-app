@@ -2,9 +2,8 @@ import React from 'react'
 import { Button } from '@heroui/button'
 import { Play } from 'lucide-react';
 
-type Props = {}
 
-export default function Header({}: Props) {
+export default function Header() {
   return (
     <div className='flex md:flex-row flex-col justify-center items-center md:px-10 px-2 bg-gray-100 overflow-hidden gap-6 pt-8'>
         <div className='flex flex-col md:gap-4 gap-8 overflow-hidden'>

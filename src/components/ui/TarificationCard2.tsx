@@ -2,9 +2,8 @@ import React from 'react'
 import { Check } from 'lucide-react';
 import { Button } from '@heroui/button';
 
-type Props = {}
 
-export default function TarificationCard2({}: Props) {
+export default function TarificationCard2() {
   return (
     <div className='rounded-lg md:w-[400px] w-[300px] flex flex-col gap-5 border border-gray-300 p-4 bg-gray-100'>
           <div className='flex justify-between'>

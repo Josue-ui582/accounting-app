@@ -7,9 +7,8 @@ import Tarification from '@/components/Tarification'
 import CallToAction from '@/components/CallToAction'
 import Footer from '@/components/Footer'
 
-type Props = {}
 
-export default function Home({}: Props) {
+export default function Home() {
   return (
     <div>
       <NavBar />

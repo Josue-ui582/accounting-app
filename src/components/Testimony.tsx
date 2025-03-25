@@ -1,9 +1,8 @@
 import React from 'react'
 import TestimonyCard from './ui/TestimonyCard'
 
-type Props = {}
 
-export default function Testimony({}: Props) {
+export default function Testimony() {
   return (
     <section className='flex flex-col justify-center items-center mt-24 gap-8 md:px-10 px-2 overflow-hidden bg-gray-100 p-5'>
         <h1 className='font-bold text-2xl text-center'>Plusieurs entreprises au Bénin nous font confiance</h1>
