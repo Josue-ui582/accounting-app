@@ -19,7 +19,7 @@ export default function TarificationCard2() {
               <Check className='text-xs' /> <span>Factures illimitées</span>
             </li>
             <li className='flex gap-2'>
-              <Check className='text-xs' /> <span>5 membres de l'équipe</span>
+              <Check className='text-xs' /> <span>5 membres de l&apos;équipe</span>
             </li>
             <li className='flex gap-2'>
               <Check className='text-xs' /> <span>Accès API</span>

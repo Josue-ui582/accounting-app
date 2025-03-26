@@ -13,10 +13,10 @@ export default function TarificationCard() {
           <Check className='text-xs' /> <span>Rapports de base</span>
         </li>
         <li className='flex gap-2'>
-          <Check className='text-xs' /> <span>Jusqu'à 100 factures</span>
+          <Check className='text-xs' /> <span>Jusqu&apos;à 100 factures</span>
         </li>
         <li className='flex gap-2'>
-          <Check className='text-xs' /> <span>2 membres de l'équipe</span>
+          <Check className='text-xs' /> <span>2 membres de l&apos;équipe</span>
         </li>
       </ul>
       <Button className='rounded-lg p-2 bg-gray-100 cursor-pointer'>Commencer</Button>

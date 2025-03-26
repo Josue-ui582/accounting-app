@@ -6,7 +6,6 @@ import {
   NavbarBrand,
   NavbarContent,
   NavbarItem,
-  NavbarMenu,
   NavbarMenuItem
 } from "@heroui/navbar";
 import { Link } from "@heroui/link";
@@ -51,7 +50,7 @@ const NavBar: React.FC = () => {
           </NavbarItem>
           <NavbarItem>
             <Button className="p-2 rounded-lg bg-blue-600 cursor-pointer hover:bg-blue-500 text-white">
-              Démarrer l'essaie gratuit
+              Démarrer l&apos;essaie gratuit
             </Button>
           </NavbarItem>
         </NavbarContent>
