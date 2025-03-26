@@ -1,5 +1,8 @@
 import React from 'react'
 import FinaceCard from './ui/FinaceCard'
+import analyse from "@/images/analyse.png"
+import facturation from "@/images/facturation.png"
+import security from "@/images/security.png"
 
 
 export default function ManageFinance() {
@@ -10,19 +13,19 @@ export default function ManageFinance() {
         <div className='flex overflow-hidden md:flex-row flex-col gap-5'>
             <FinaceCard
                 title="Analyse en temps réel"
-                icon="analyse.png"
+                icon={analyse}
                 content="Obtenez des informations instantanées sur les performances de votre entreprise grâce à des outils de reporting avancés"
             />
 
             <FinaceCard
                 title="Facturation automatisée"
-                icon="facturation.png"
+                icon={facturation}
                 content="Créez et envoyez automatiquement des factures professionnelles avec suivi des paiements"
             />
 
             <FinaceCard
                 title="Sécurité de niveau bancaire"
-                icon="security.png"
+                icon={security}
                 content="Vos données financières sont protégées par des mesures de sécurité de niveau entreprise"
             />
         </div>
